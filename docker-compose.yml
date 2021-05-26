@@ -1,0 +1,9 @@
+version: '3'
+services:
+    web:
+        image: counter
+        build: .
+        container_name: counter
+        restart: always
+        ports:
+            - "8080:80"
