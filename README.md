@@ -7,3 +7,7 @@ This repo contains:
 * the index.html file containing the application.
 
 Once run the web application can be viewed on localhost:8080
+
+This image can be pulled using: 
+
+docker pull codefluorite/calorie-counter:1.0
